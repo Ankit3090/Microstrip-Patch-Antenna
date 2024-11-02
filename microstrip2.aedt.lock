@@ -1,0 +1,40 @@
+$begin 'ConnectionParameters'
+	DesktopProcessID=13064
+	DesktopProcessPath='C:\\Program Files\\AnsysEM\\Ansys Student\\v242\\Win64\\ansysedtsv.exe'
+	LaunchedByWB=false
+	GRPCPort=50051
+	$begin 'DesktopStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='172.20.156.31'
+			ListenPort='53711'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=503
+			ProcID=13064
+			InterfaceID=1
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopStubBlock'
+	$begin 'DesktopBackgroundObjStubBlock'
+		$begin 'CommDetails'
+			TransportType=1
+			IPAddress='172.20.156.31'
+			ListenPort='53711'
+		$end 'CommDetails'
+		$begin 'Marshall'
+			InstanceID=505
+			ProcID=13064
+			InterfaceID=2
+			FactoryIntID='DesktopInterfaceForWBProxyStubFactory'
+		$end 'Marshall'
+	$end 'DesktopBackgroundObjStubBlock'
+	$begin 'WebClientBlock'
+		Url='http://ANKIT:52689/?server=ws://ANKIT:52177&token=ffa614c4-6dba-2ca7-a0d8-0a3a9aec2bd2&startTab=monitor/graph'
+		SecureUrl='https://ANKIT:52945/?server=wss://ANKIT:52433&token=ffa614c4-6dba-2ca7-a0d8-0a3a9aec2bd2&startTab=monitor/graph'
+		WsHost='ANKIT'
+		WsPort=52177
+		WssPort=52433
+		Token='ffa614c4-6dba-2ca7-a0d8-0a3a9aec2bd2'
+	$end 'WebClientBlock'
+$end 'ConnectionParameters'
