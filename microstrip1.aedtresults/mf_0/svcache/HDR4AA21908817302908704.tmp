@@ -1,0 +1,42 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=1
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=41
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=42
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=46
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=857
+						$begin 'MinorVVMap'
+							MajorVariation='G_slot_L=\'3.2000000000000002mm\' G_slot_T=\'0.035000000000000003mm\' G_slot_W=\'3mm\' L=\'9.9900000000000002mm\' L_feed=\'11.74mm\' L_g=\'27.599999999999998mm\' L_offset=\'1.7482500000000001mm\' L_slot=\'3.2467500000000005mm\' partial=\'0.34999999999999998\' T=\'0.035000000000000003mm\' T_diel=\'0.80000000000000004mm\' T_g=\'0.035000000000000003mm\' W=\'13.039999999999999mm\' W_feed=\'1.53mm\' W_g=\'26.079999999999998mm\' W_slot=\'3.0600000000000001mm\''
+							MinorCacheFile='min31AD8428173029894828.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'
