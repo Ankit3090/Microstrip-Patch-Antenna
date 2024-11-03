@@ -1,9 +1,9 @@
 $begin 'CacheDataVersion'
-	DataVersion=-1
+	DataVersion=97
 $end 'CacheDataVersion'
 $begin 'VariableValues'
-	T_diel='0.8mm'
-	L='9.99mm'
+	T_diel='1.6mm'
+	L='9.586mm'
 	W='13.04mm'
 	T='0.035mm'
 	L_feed='11.74mm'
